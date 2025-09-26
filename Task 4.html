@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fasiha Tariq - Portfolio</title>
+  <link rel="stylesheet" href="Task 4.css" >
+  <script src="Task 4.js" defer></script>
+</head>
+<body>
+ <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Fasiha<span>Tariq</span></h2>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="PIC.jpg" alt="Profile Photo" class="profile-pic" />
+      <h1>Hello, I’m <span class="highlight">Fasiha Tariq</span></h1>
+      <p class="tagline">A Passionate Web Developer & CS Student</p>
+      <p class="skills-summary">
+        Skilled in Java, C++, JavaScript, and web development. Eager to apply my knowledge through impactful projects and internships.
+      </p>
+      <div class="hero-buttons">
+        <a href="Fasiha Tariq - CV.pdf" download class="btn">📄 Download Resume</a>
+        <a href="#projects" class="btn secondary">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="PIC.jpg" alt="Fasiha Tariq" />
+      </div>
+      <div class="about-content">
+        <p class="intro">
+          Result-driven and passionate Computer Science student with a strong foundation in programming, data structures, and web development.
+        </p>
+        <div class="about-cards">
+          <div class="about-card">
+            <h3>Education</h3>
+            <p>B.S. Computer Science – Riphah International University (In Process, GPA 4.0)</p>
+          </div>
+          <div class="about-card">
+            <h3>Experience</h3>
+            <p>No professional experience yet – eager to gain hands-on exposure through internships.</p>
+          </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="about-skills">
+          <div class="skill-card">
+            <h3>Web Development</h3>
+            <div class="skill">
+              <span>HTML / CSS / JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="90%">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <div class="skill">
+              <span>Java / C++ / Python</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="85%">85%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>UI / UX Design</h3>
+            <div class="skill">
+              <span>Figma / Balsamiq</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="75%">75%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Database & Tools</h3>
+            <div class="skill">
+              <span>phpMyAdmin / VS Code / NetBeans</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="80%">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Tic Tac Toe Game</h3>
+        <p>Interactive web-based Tic Tac Toe with Human vs AI mode.</p>
+        <a href="https://github.com/Fasiha-Tariq/PRODIGY_WD_03.git" target="_blank" class="project-link">🔗 GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Stopwatch</h3>
+        <p>Web stopwatch with start, pause, reset, and lap functionality.</p>
+        <a href="https://github.com/Fasiha-Tariq/PRODIGY_WD_02.git" target="_blank" class="project-link">🔗 GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Responsive Landing Page</h3>
+        <p>Fully responsive landing page with interactive navigation menu.</p>
+        <a href="https://github.com/Fasiha-Tariq/PRODIGY_WD_01.git" target="_blank" class="project-link">🔗 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaboration or internship opportunities!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Fasiha Tariq. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
